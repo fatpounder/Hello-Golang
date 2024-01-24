@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"math"
+	//"math"
 )
 
 // func main() {
@@ -68,8 +68,26 @@ import (
 
 // //preference given to most local variable, however need to avoid shadowing anyway for readability
 
+// func main() {
+// 	var num float64 = 12
+// 	var result = math.Sqrt(float64(num))
+// 	fmt.Printf("The output is %.2g Danke!", result)
+// }
+
+//keyword defer to run something but call it after the execution block
+
+type Student struct {
+	rollno int
+	name   string
+	marks  int
+}
+
 func main() {
-	var num float64 = 12
-	var result = math.Sqrt(float64(num))
-	fmt.Printf("The output is %.2g Danke!", result)
+
+	var s1 Student = Student{101, "Marie", 55}
+	fmt.Println(s1)
+	fmt.Println(s1.name)
+
+	var s2 Student = Student{rollno: 102, marks: 55}
+	fmt.Println(s2)
 }
