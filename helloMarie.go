@@ -82,7 +82,7 @@ type Student struct {
 	marks  int
 }
 
-func main() {
+func hello() {
 
 	var s1 Student = Student{101, "Marie", 55}
 	fmt.Println(s1)
