@@ -1,6 +1,5 @@
 package main
 
-//Go is statically typed
 import "fmt"
 
 func variable() {
