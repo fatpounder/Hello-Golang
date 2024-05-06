@@ -16,4 +16,5 @@ func main() {
 	fmt.Printf("%v \t %b \t %X\n", d, d, d)
 	fmt.Printf("%v \t %b \t %X\n", e, e, e)
 	fmt.Printf("%v \t %b \t %X\n", f, f, f)
+
 }
