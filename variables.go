@@ -11,4 +11,5 @@ func variable() {
 	fmt.Println(b, c, d, f)
 	//all types have a zero value if nothing assigned to it yet
 	//boolean false, int 0, float 0.0, string "", others like pointers, slices, interfaces, etc. are nil
+	//Golang statically typed
 }
